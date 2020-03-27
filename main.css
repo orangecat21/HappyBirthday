@@ -22,12 +22,20 @@ body{
     opacity: 1;
     transition: 2s ease;
 }
-.congratulation img{
+.congratulation .hb{
     position: absolute;
     top: 8vh;
     right: -8vw;
     height: 20vh;
     transform: rotate(8deg);
+}
+
+.congratulation .mashroom{
+    position: absolute;
+    top: 370vh;
+    left: 6vw;
+    height: 15vh;
+    transform: rotate(-9deg);
 }
 .congratulation>*{
     display: flex;
