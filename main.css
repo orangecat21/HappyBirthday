@@ -7,6 +7,7 @@
     color: #fff;
 }
 body{
+    position: relative;
     margin-left: 5vw;
     margin-right: 5vw;
     background: linear-gradient(315deg, #800080 5%, #77eed8 90%) no-repeat fixed;
@@ -20,6 +21,13 @@ body{
     text-align: center;
     opacity: 1;
     transition: 2s ease;
+}
+.congratulation img{
+    position: absolute;
+    top: 8vh;
+    right: -8vw;
+    height: 20vh;
+    transform: rotate(8deg);
 }
 .congratulation>*{
     display: flex;
